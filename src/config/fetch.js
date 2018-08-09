@@ -6,10 +6,10 @@ import {
 export default async(url = '', data = {}, type = 'GET') => {
 	type = type.toUpperCase();
 	//测试
-	let path = '/farmeasy-resume-service/resumeExhibition';
+	//let path = '/farmeasy-resume-service/resumeExhibition';
 
 	//正式
-	//let path = '/farmeasy-api-gateway/farmeasy-resume-service/resumeExhibition';
+	let path = '/farmeasy-api-gateway/farmeasy-resume-service/resumeExhibition';
 
 	//let path = '/resumeExhibition';
 	url = baseUrl + path + url;
